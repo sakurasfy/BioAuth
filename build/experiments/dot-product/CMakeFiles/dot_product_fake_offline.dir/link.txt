@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/libomp/19.1.2/lib CMakeFiles/dot_product_fake_offline.dir/dot_product_fake_offline.cpp.o -o dot_product_fake_offline  /opt/homebrew/lib/libssl.dylib /opt/homebrew/lib/libcrypto.dylib /opt/homebrew/lib/libgmp.dylib /opt/homebrew/lib/libgmpxx.dylib

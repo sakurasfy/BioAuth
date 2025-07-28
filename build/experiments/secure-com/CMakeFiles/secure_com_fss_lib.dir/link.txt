@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsecure_com_fss_lib.a "CMakeFiles/secure_com_fss_lib.dir/__/__/src/networking/fss-client.cpp.o" "CMakeFiles/secure_com_fss_lib.dir/__/__/src/networking/fss-server.cpp.o" "CMakeFiles/secure_com_fss_lib.dir/__/__/src/networking/fss-common.cpp.o"
+/usr/bin/ranlib libsecure_com_fss_lib.a

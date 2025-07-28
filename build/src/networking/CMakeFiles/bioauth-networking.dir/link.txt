@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbioauth-networking.a "CMakeFiles/bioauth-networking.dir/Party.cpp.o"
+/usr/bin/ranlib libbioauth-networking.a

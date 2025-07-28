@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/sakfish/BioAuth/build/cmake_install.cmake",
+		"/Users/sakfish/BioAuth/build/src/networking/cmake_install.cmake",
+		"/Users/sakfish/BioAuth/build/experiments/cmake_install.cmake",
+		"/Users/sakfish/BioAuth/build/experiments/dot-product/cmake_install.cmake",
+		"/Users/sakfish/BioAuth/build/experiments/dot-product-db/cmake_install.cmake",
+		"/Users/sakfish/BioAuth/build/experiments/secure-com/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

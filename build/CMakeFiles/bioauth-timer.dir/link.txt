@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbioauth-timer.a "CMakeFiles/bioauth-timer.dir/src/utils/Timer.cpp.o"
+/usr/bin/ranlib libbioauth-timer.a
