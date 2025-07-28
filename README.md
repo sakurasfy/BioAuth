@@ -22,8 +22,10 @@ The code has been tested on macOS 15.3. Building the code requires the following
 ```shell
 brew install cmake eigen boost openssl gmp
 ```
-```shell
+
+
 #### on Ubuntu
+```shell
 sudo apt-get update
 sudo apt-get install build-essential cmake
 sudo apt-get install libeigen3-dev libboost-dev
