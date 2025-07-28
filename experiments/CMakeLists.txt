@@ -1,0 +1,13 @@
+add_subdirectory(dot-product)
+add_subdirectory(dot-product-db)
+
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/secure-com" AND IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/secure-com")
+    if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/secure-com/CMakeLists.txt")
+        message(STATUS "Adding secure-com subdirectory")
+        add_subdirectory(secure-com)
+    else()
+        message(WARNING "secure-com directory exists but no CMakeLists.txt found")
+    endif()
+else()
+    message(WARNING "secure-com directory not found in ${CMAKE_CURRENT_SOURCE_DIR}")
+endif()
